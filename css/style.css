@@ -1,0 +1,676 @@
+body{
+	padding:0px;
+	margin:0px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.kliner {
+	clear: both;
+}
+#meni{
+	height:50px;
+	margin-left:auto;
+	margin-right:auto;
+	float:right;
+	width: auto;
+}
+#meni li{
+		display:inline;
+		padding:10px;
+
+}
+#meni li:hover{
+	background-color:#666;
+	border-radius:5px;
+}
+#meni a{
+	color:#666;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+
+#meni a:hover{
+	color:#FFF;
+}
+#meni ul{
+	padding: 0px 0px 0px 0px;
+	float: right;
+	list-style: none;
+	margin-left:0px;
+}
+#logo{
+	height:50px;
+	width:200px;
+	float:left;
+}
+#logo img{
+		border:none;
+		outline: none;
+}
+#heder{
+	max-width:950px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	overflow:hidden;
+}
+#slika{
+	background-image: url("../slike/6.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-width: 950px;
+	height: 450px;
+	margin: 6% auto 0% auto;
+}
+#kontejneri{
+	overflow:hidden;
+	max-width:950px;
+	height: auto;
+	margin: 0% auto;
+}
+.kont1{
+	width:31.6%;
+	overflow:hidden;
+	display:inline-block;
+	float:left;
+	margin-left:11px;
+	border:solid 1px #666;
+	border-radius:5px;
+}
+.kont1:hover{
+	background-color:#DDDFE1;
+}
+.kont1 h2{
+	padding-left:15px;
+	}
+img.slikaLevo{
+	float:left;
+	margin-right:10px;
+	padding-left:5px;
+	width: 100px;
+}
+.zaReadMore{
+	float:right;
+}
+.zaReadMore p{
+	font-size:12px;
+	padding-right:10px;
+}
+.zaReadMore a{
+	text-decoration:none;
+	color:#0000CC;
+	}
+.zaReadMore a:hover{
+	text-decoration:underline;
+	}
+
+
+.kont1 p{
+	font-family:Arial, Helvetica, sans-serif;
+	margin-bottom:0;
+	font-size:14px;
+	text-align:left;
+	text-indent:10px;
+	line-height:20px;
+}
+
+#footer{
+	border-radius:5px;
+	max-width:950px;
+	height:30px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#666;
+	margin-top:15px;
+	overflow:hidden;
+	}
+
+#footer p{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:12px;
+	padding-left:20px;
+	height:30px;
+}
+
+.boxevi{
+	width:950px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;
+	}
+.box{
+	margin-right:20px;
+	width:290px;
+	height:300px;
+	overflow:hidden;
+	padding-top:20px;
+	text-align:justify;
+	margin-top:20px;
+	border:solid 1px #CBCEC8;
+	border-radius:5px;
+	display:inline-block;
+	padding-left:5px;
+	padding-right:5px;
+	float:right;
+	}
+.box p{
+	padding:0px 5px 5px 5px;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:2;
+	}
+
+.trenutno{
+	color:#fff;
+	background-color:#666;
+	border-radius:5px;
+	}
+.slicica{
+	overflow:hidden;
+	display:inline-block;
+	padding-right:5px;
+	padding-left:5px;
+	border:solid 1px #000000;
+	margin-top:5px;
+	padding-top:10px;
+	opacity:0.7;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 31%;
+	height: 200px;
+	border-radius: 5px;
+	}
+	#slika1 {
+		background-image: url("../slike/1.jpg");
+	}
+	#slika2 {
+		background-image: url("../slike/2.jpg");
+	}
+	#slika3 {
+		background-image: url("../slike/3.jpg");
+	}
+	#slika4 {
+		background-image: url("../slike/4.jpg");
+	}
+	#slika5 {
+		background-image: url("../slike/5.jpg");
+	}
+	#slika6 {
+		background-image: url("../slike/6.jpg");
+	}
+	#slika7 {
+		background-image: url("../slike/7.jpg");
+	}
+	#slika8 {
+		background-image: url("../slike/8.jpg");
+	}
+	#slika9 {
+		background-image: url("../slike/9.jpg");
+		background-position: center;
+	}
+.modal-gallery {
+	position: absolute;
+    top: 50px;
+    bottom: 50px;
+    background: #f4f4f4;
+	border: solid 1px #333;
+    width: 50%;
+    left: 50%;
+    margin-left: -25%;
+	text-align: center;
+	padding: 20px;
+	display: none;
+}
+.modal-gallery .img-holder {
+	width:100%;
+	height:100%;
+}
+.modal-gallery .close {
+	color: #fff;
+	width: 15px;
+	height: 15px;
+	background:#333;
+	text-align: center;
+	position: absolute;
+	top: -7.5px;
+	right: -7.5px;
+	cursor: pointer;
+	z-index: 10;
+	padding: 0 2px 4px 2px;
+}
+.modal-gallery img {
+	width: auto;
+	max-width: 100%;
+	height: 100%;
+}
+#tekst{
+	max-width:750px;
+	margin: 0% auto;
+	overflow:hidden;
+	padding-top:10px;
+	padding-left: 2%;
+	padding-right: 2%;
+	}
+#tekst p{
+	text-align:justify;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-indent:20px;
+	line-height:25px;
+	padding-top:15px;
+
+	}
+	#tekst img {
+		width: 35%;
+		height: 300px;
+	}
+img.znakic{
+	padding-top:15px;
+	float:left;
+	margin-right:10px;
+	padding-left:5px;
+	overflow:hidden;
+}
+.sajd{
+	padding-top:50px;
+	overflow:hidden;
+	float:left;
+	margin-left:auto;
+	margin-right:auto;
+	width:200px;
+	height:600px;
+	}
+.sajd ul{
+	padding: 0px 0px 0px 0px;
+	float: left;
+	list-style: none;
+	margin-left:0px;
+	}
+.sajd li{
+	text-decoration:none;
+	border:solid 1 px #666;
+	padding:10px;
+	margin-top:2px;
+	margin-bottom:2px;
+	}
+.sajd li:hover{
+	background-color:#CCCCCC;
+	border-radius:5px;
+
+	}
+.sajd a{
+	color:#666;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+.sajd a:hover{
+	color:#fff;
+	}
+.features{
+	padding-left:70px;
+	}
+.ovde{
+	background-color:#CCCCCC;
+	border-radius:5px;
+	color:#fff;
+	}
+img.plavaslika{
+	padding-left:175px;
+	padding-top:20px;
+	overflow:hidden;
+}
+.perce p{
+	text-align:justify;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:2;
+	font-size:14px;
+	}
+img.apps{
+	padding-left:5px;
+	}
+.tekstic p{
+	line-height:2;
+	text-indent:20px;
+	padding-top:20px;
+	text-align:justify;
+	font-size:14px;
+	}
+.tekstic li{
+	line-height:2;
+	text-align:justify;
+	font-size:14px;
+	}
+img.aplikacije{
+	padding-left:130px;
+	padding-top:20px;
+	overflow:hidden;
+	}
+img.sistem{
+	padding-left:70px;
+	}
+img.jedan{
+	float:left;
+	padding-left:50px;
+	padding-top:40px;
+	}
+.boxevi p{
+	line-height:2;
+	text-align:justify;
+	text-indent:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-top:10px;
+	font-size:14px;
+	}
+img.oblak{
+	padding-top:50px;
+	padding-left:120px;
+	}
+#telo{
+	max-width:750px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:30px;
+	overflow:hidden;
+	}
+.blok {
+		border:solid 1px #999;
+	  background-color:#f0f0f0;
+		text-decoration:none;
+		border-radius:5px;
+		margin: 3% auto;
+		padding: 0% 5%;
+		max-width: 100%;
+	}
+.blok:hover{
+		border:solid 1px #999;
+	  background-color:#CCCCCC;
+		}
+.blok a{
+		text-decoration:none;
+		color:#000099;
+		font-size:16px;
+		font-family:Arial, Helvetica, sans-serif;
+}
+.blok p{
+		font-size:14px;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align:justify;
+		text-indent:5%;
+		line-height:2;
+}
+#linkovi{
+	max-width:950px;
+	height: 500px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image: url("../slike/ipad2-big.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-bottom: 10%;
+}
+#linkovi ul{
+	padding-top:50%;
+	margin-left:auto;
+	margin-right:auto;
+	width:20%;
+	list-style:circle;
+	line-height:2;
+	}
+#linkovi a{
+	text-decoration:none;
+	color:#666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	}
+#linkovi a:hover{
+	text-decoration:underline;
+	color: #000;
+	}
+#zakontakt{
+	max-width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+#zakontakt h2{
+	color:#666;
+	}
+#zakontakt h3, #zakontakt h3 a{
+	color:#666;
+	}
+#desno{
+	padding-top:6%;
+	float:right;
+	padding-right:20px;
+	}
+	#zakontakt #desno #zaautora h3 a{
+		color: #666;
+		text-decoration: none;
+	}
+
+#levo{
+	padding-left: 3%;
+	float:left;
+	padding-bottom:1%;
+}
+
+.slicica:hover{
+	opacity:1.0;
+	}
+#glavni{
+	margin-top:30px;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+	max-width:950px;
+	}
+
+img.reg{
+	width:450px;
+	overflow:hidden;
+	float:right;
+	padding-right:30px;
+	}
+#zaformu{
+	padding-top:100px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom: 0%;
+	padding-top: 5%;
+	background-image: url("../slike/o.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 950px;
+	height: 500px;
+	}
+form{
+	padding-left:30px;
+	padding-top:10px;
+	max-width:400px;
+	float:left;
+	overflow:hidden;
+	}
+	#zaformu form input {
+		border-radius: 5px;
+
+	}
+#footer a{
+	color:#fff;
+	text-decoration:none;
+	}
+#footer a:hover{
+	color:#000;
+	text-decoration:underline;
+	}
+	#margindole{
+		margin-bottom: 439px;
+	}
+	/* medija kveriji */
+	@media screen and (max-width: 967px) {
+		.kont1 {
+			width: 90%;
+			margin-left: 5%;
+			
+		
+
+
+		}
+		#slika {
+			height: 450px;
+			max-width: 800px;
+			background-position: 33% 0%;
+		}
+	}
+	@media screen and (max-width: 834px) {
+		#slika {
+			height: 450px;
+			max-width: 650px;
+			background-position: 50% 0%;
+		}
+		#logo {
+			margin: 1% auto;
+			float: none;
+		}
+		#meni  {
+			margin-right: 17%;
+			float: none;
+		}
+	}
+	@media screen and (max-width: 831px) {
+		#desno {
+			float: left;
+			padding-left: 3%;
+			padding-top: 0%;
+		}
+	}
+	@media screen and (max-width: 800px) {
+		#meni  {
+			margin-right: 16%;
+		}
+	}
+	@media screen and (max-width: 750px) {
+		#meni  {
+			margin-right: 12%;
+		}
+	}
+	@media screen and (max-width: 675px) {
+		#meni  {
+			margin-right: 7%;
+		}
+		#slika {
+			height: 400px;
+			max-width: 550px;
+			background-position: 50% 0%;
+		}
+	}
+	@media screen and (max-width: 657px) {
+		.slicica {
+			width: 47%;
+		}
+		#slika9 {
+			background-position: 60% 0%;
+		}
+	}
+	@media screen and (max-width: 640px) {
+		#meni  {
+			margin-right: 6%;
+		}
+	}
+@media screen and (max-width: 600px){
+	#tekst img {
+		display: none;
+	}
+}
+	@media screen and (max-width: 575px) {
+		#slika {
+			height: 350px;
+			max-width: 500px;
+			background-position: 50% 0%;
+		}
+		#meni  {
+			margin-right: 0%;
+		}
+	}
+	@media screen and (max-width: 525px) {
+		#meni #nestaje1 {
+			display: none;
+		}
+		#meni  {
+			margin-right: 8%;
+		}
+	}
+	@media screen and (max-width: 520px) {
+		#slika {
+			height: 280px;
+			max-width: 400px;
+			background-position: 50% 0%;
+		}
+	}
+	@media screen and (max-width: 490px) {
+		.slicica {
+			width: 97%;
+			height: 270px;
+		}
+		#slika9 {
+			background-position: 60% 0%;
+		}
+	}
+	@media screen and (max-width: 465px) {
+		#meni  {
+			margin-right: 3%;
+		}
+	}
+	@media screen and (max-width: 442px) {
+		#meni #nestaje3 {
+			display: none;
+		}
+	}
+	@media screen and (max-width: 430px) {
+		#meni  {
+			margin-right: 0%;
+		}
+	}
+	@media screen and (max-width: 420px) {
+		#slika {
+			height: 230px;
+			max-width: 300px;
+			background-position: 50% 0%;
+		}
+	}
+	@media screen and (max-width: 414px) {
+		#meni #nestaje2 {
+			display: none;
+		}
+		#meni  {
+			margin-right: 9%;
+		}
+	}
+	@media screen and (max-width: 400px) {
+		.slicica {
+			max-width: 96%;
+		}
+		#slika9 {
+			background-position: 60% 0%;
+		}
+		#slika7, #slika5, #slika1{
+			background-position: 50% 0%;
+		}
+		#slika2 {
+			background-position: 100% 0%;
+		}
+	}
+	@media screen and (max-width: 388px) {
+		#meni #nestaje4  {
+			display: none;
+		}
+	}
+	@media screen and (max-width: 370px) {
+		#meni #nestaje5  {
+			display: none;
+		}
+	}
+	@media screen and (max-width: 365px) {
+		#meni  {
+			margin-right: 0%;
+		}
+	}

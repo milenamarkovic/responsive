@@ -1,0 +1,460 @@
+@boja1: #666;
+@ela: #FFF;
+@boja3: #0000CC;
+@boja4: #fff;
+@boja5: #000099;
+@boja6: #000;
+@mojfont: Arial, Helvetica, sans-serif;
+@pozadinskaboja1: #666;
+@pozadinskaboja2: #DDDFE1;
+@pozadinskaboja3: #CCCCCC;
+@pozadinskaboja4: #f0f0f0;
+
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: @mojfont;
+}
+.kliner {
+	clear: both;
+}
+#meni {
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+	width: auto;
+	li {
+		display: inline;
+		padding: 10px;
+		&:hover {
+			background-color: @pozadinskaboja1;
+			border-radius: 5px;
+		}
+	}
+	a {
+		color: @boja1;
+		text-decoration: none;
+		font-family: @mojfont;
+		&:hover {
+			color: @ela;
+		}
+	}
+	ul {
+		padding: 0px 0px 0px 0px;
+		float: right;
+		list-style: none;
+		margin-left: 0px;
+	}
+}
+#logo {
+	height: 50px;
+	width: 200px;
+	float: left;
+	img {
+		border: none;
+		outline: none;
+	}
+}
+#heder {
+	max-width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	overflow: hidden;
+}
+#slika {
+	background-image: url("../slike/velikaslika.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-width: 950px;
+	height: 450px;
+	margin: 6% auto 0% auto;
+}
+#kontejneri {
+	overflow: hidden;
+	max-width: 950px;
+	height: auto;
+	margin: 0% auto;
+}
+.kont1 {
+	width: 31.6%;
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+	margin-left: 11px;
+	border: solid 1px #666;
+	border-radius: 5px;
+	&:hover {
+		background-color: @pozadinskaboja2;
+	}
+	h2 {
+		padding-left: 15px;
+	}
+	p {
+		font-family: @mojfont;
+		margin-bottom: 0;
+		font-size: 14px;
+		text-align: left;
+		text-indent: 10px;
+		line-height: 20px;
+	}
+}
+img.slikaLevo {
+	float: left;
+	margin-right: 10px;
+	padding-left: 5px;
+	width: 100px;
+}
+.zaReadMore {
+	float: right;
+	p {
+		font-size: 12px;
+		padding-right: 10px;
+	}
+	a {
+		text-decoration: none;
+		color: @boja3;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+#footer {
+	border-radius: 5px;
+	max-width: 950px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: @pozadinskaboja1;
+	margin-top: 15px;
+	overflow: hidden;
+	p {
+		font-family: @mojfont;
+		color: @ela;
+		font-size: 12px;
+		padding-left: 20px;
+		height: 30px;
+	}
+	a {
+		color: @boja4;
+		text-decoration: none;
+		&:hover {
+			color: @boja6;
+			text-decoration: underline;
+		}
+	}
+}
+.boxevi {
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+.box {
+	margin-right: 20px;
+	width: 290px;
+	height: 300px;
+	overflow: hidden;
+	padding-top: 20px;
+	text-align: justify;
+	margin-top: 20px;
+	border: solid 1px #CBCEC8;
+	border-radius: 5px;
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+	float: right;
+	p {
+		padding: 0px 5px 5px 5px;
+		font-size: 14px;
+		font-family: @mojfont;
+		line-height: 2;
+	}
+}
+.trenutno {
+	color: @boja4;
+	background-color: @pozadinskaboja1;
+	border-radius: 5px;
+}
+.slicica {
+	overflow: hidden;
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+	border: solid 1px #000000;
+	margin-top: 5px;
+	padding-top: 10px;
+	opacity: 0.7;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 31%;
+	height: 200px;
+	border-radius: 5px;
+	&:hover {
+		opacity: 1.0;
+	}
+}
+#slika1 {
+	background-image: url("../slike/1.jpg");
+}
+#slika2 {
+	background-image: url("../slike/2.jpg");
+}
+#slika3 {
+	background-image: url("../slike/3.jpg");
+}
+#slika4 {
+	background-image: url("../slike/4.jpg");
+}
+#slika5 {
+	background-image: url("../slike/5.jpg");
+}
+#slika6 {
+	background-image: url("../slike/6.jpg");
+}
+#slika7 {
+	background-image: url("../slike/7.jpg");
+}
+#slika8 {
+	background-image: url("../slike/8.jpg");
+}
+#slika9 {
+	background-image: url("../slike/9.jpg");
+	background-position: center;
+}
+#tekst {
+	max-width: 750px;
+	margin: 0% auto;
+	overflow: hidden;
+	padding-top: 10px;
+	padding-left: 2%;
+	padding-right: 2%;
+	p {
+		text-align: justify;
+		font-family: @mojfont;
+		font-size: 14px;
+		text-indent: 20px;
+		line-height: 25px;
+		padding-top: 15px;
+	}
+	img {
+		width: 35%;
+		height: 300px;
+	}
+}
+img.znakic {
+	padding-top: 15px;
+	float: left;
+	margin-right: 10px;
+	padding-left: 5px;
+	overflow: hidden;
+}
+.sajd {
+	padding-top: 50px;
+	overflow: hidden;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 600px;
+	ul {
+		padding: 0px 0px 0px 0px;
+		float: left;
+		list-style: none;
+		margin-left: 0px;
+	}
+	li {
+		text-decoration: none;
+		border: solid 1 px #666;
+		padding: 10px;
+		margin-top: 2px;
+		margin-bottom: 2px;
+		&:hover {
+			background-color: @pozadinskaboja3;
+			border-radius: 5px;
+		}
+	}
+	a {
+		color: @boja1;
+		text-decoration: none;
+		font-family: @mojfont;
+		&:hover {
+			color: @boja4;
+		}
+	}
+}
+.features {
+	padding-left: 70px;
+}
+.ovde {
+	background-color: @pozadinskaboja3;
+	border-radius: 5px;
+	color: @boja4;
+}
+img.plavaslika {
+	padding-left: 175px;
+	padding-top: 20px;
+	overflow: hidden;
+}
+.perce {
+	p {
+		text-align: justify;
+		text-decoration: none;
+		font-family: @mojfont;
+		line-height: 2;
+		font-size: 14px;
+	}
+}
+img.apps {
+	padding-left: 5px;
+}
+.tekstic {
+	p {
+		line-height: 2;
+		text-indent: 20px;
+		padding-top: 20px;
+		text-align: justify;
+		font-size: 14px;
+	}
+	li {
+		line-height: 2;
+		text-align: justify;
+		font-size: 14px;
+	}
+}
+#telo {
+	max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
+	overflow: hidden;
+}
+.blok {
+	border: solid 1px #999;
+	background-color: @pozadinskaboja4;
+	text-decoration: none;
+	border-radius: 5px;
+	margin: 3% auto;
+	padding: 0% 5%;
+	max-width: 100%;
+	&:hover {
+		border: solid 1px #999;
+		background-color: @pozadinskaboja3;
+	}
+	a {
+		text-decoration: none;
+		color: @boja5;
+		font-size: 16px;
+		font-family: @mojfont;
+	}
+	p {
+		font-size: 14px;
+		font-family: @mojfont;
+		text-align: justify;
+		text-indent: 5%;
+		line-height: 2;
+	}
+}
+#linkovi {
+	max-width: 950px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("../slike/ipad2-big.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-bottom: 10%;
+	ul {
+		padding-top: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		width: 20%;
+		list-style: circle;
+		line-height: 2;
+	}
+	a {
+		text-decoration: none;
+		color: @boja1;
+		font-family: @mojfont;
+		font-size: 16px;
+		&:hover {
+			text-decoration: underline;
+			color: @boja6;
+		}
+	}
+}
+#zakontakt {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	h2 {
+		color: @boja1;
+	}
+	h3 {
+		color: @boja1;
+		a {
+			color: @boja1;
+		}
+	}
+	#desno {
+		#zaautora {
+			h3 {
+				a {
+					color: @boja1;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+#desno {
+	padding-top: 6%;
+	float: right;
+	padding-right: 20px;
+}
+#levo {
+	padding-left: 3%;
+	float: left;
+	padding-bottom: 1%;
+}
+#glavni {
+	margin-top: 30px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 950px;
+}
+img.reg {
+	width: 450px;
+	overflow: hidden;
+	float: right;
+	padding-right: 30px;
+}
+#zaformu {
+	padding-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 0%;
+	padding-top: 15%;
+	background-image: url("../slike/tanak.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	max-width: 950px;
+	height: 500px;
+	form {
+		input {
+			border-radius: 5px;
+		}
+	}
+}
+form {
+	padding-left: 30px;
+	padding-top: 10px;
+	max-width: 400px;
+	float: left;
+	overflow: hidden;
+}
+#margindole {
+	margin-bottom: 439px;
+}
